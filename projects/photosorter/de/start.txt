@@ -1,0 +1,3 @@
+PhotoSorter
+Der Foto Sortierer ist ein kleines Programm, mit dem
+Sie mühelos Ihre Urlaubsfotos Datumssortiert ablegen können. Dieses Tool dient dazu, dass Sie sich jederzeit in Ihren Erinerungen zurecht finden!

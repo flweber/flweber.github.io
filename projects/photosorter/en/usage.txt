@@ -1,0 +1,6 @@
+
+Usage
+First you have to select the daterange of your holidays. In the next step you have to select the source directory where you have stored the images. 
+Last but not least you have to select the folder where your photos should be stored when they are sorted. 
+You don't have to select a folder with your destination. The tool will create a folder named by your destination 
+where you can find your sorted pictures after the process finished.

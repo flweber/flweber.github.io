@@ -7,15 +7,15 @@
             {
                 var userLang = navigator.language || navigator.userLanguage;
                 var shortCode = userLang.split("-")[0] === "de" ? "de" : "en";
-                window.location.replace("./" + shortCode);
+                window.location.replace("../" + shortCode + "/projects.html");
             }
             catch
             {
-                window.location.replace("./en");
+                window.location.replace("../en/projects.html");
             }
         </script>
     </head>
     <body>
-        <h3>If the redirection to your language isn&apos;t working click <a href="./en">here</a>.</h3>
+        <h3>If the redirection to your language isn&apos;t working click <a href="../en/projects.html">here</a>.</h3>
     </body>
 </html>

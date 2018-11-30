@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<title>FLWEBER - Guten Tag</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+		<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="control.js"></script>        
+    </head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">FLWeber</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+				  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="../../index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projekte</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="current.html">Aktuelles Projekt</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Tools
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Bilder Sortierung <span class="sr-only">(current)</span></a>
+					<a class="dropdown-item" href="https://flweber.github.io/scrn-svr-einschalten/de/">Windows Screen Saver</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Games</a>
+					<a class="dropdown-item" href="https://flweber.github.io/finde-die-box/">Finde die Box</a>
+				  </div>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled" href="#">geplantes Projekt</a>
+				</li>
+			  </ul>
+			</div>
+		 </nav>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+              <li class="breadcrumb-item" aria-current="page"><a href="../../index.html">Home</a></li>
+              <li class="breadcrumb-item" aria-current="page"><a href="../../de/projects.html">Projekte</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Photo Sorter</li>
+			</ol>
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column"> 
+                            <li id="side_start" class="nav-item"><a href="#">Start</a></li>
+                            <li id="side_inst" class="nav-item"><a href="#">Installation</a></li>
+                            <li id="side_usage" class="nav-item"><a href="#">Verwendung</a></li>
+                            <li id="side_features" class="nav-item"><a href="#">Feature</a></li>
+                            <li id="side_dl" class="nav-item"><a href="#">Download</a></li>
+                        </ul>
+                    </div>
+                </nav>
+				<main id="content" role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                </main>
+			</div>
+		</div>
+	</body>
+</html>

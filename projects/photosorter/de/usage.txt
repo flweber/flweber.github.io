@@ -1,0 +1,7 @@
+Verwendung
+Zuerst geben Sie den Datumsbereich ein, in dem sich die Fotos befinden, die Sie sortieren wollen. 
+Als nächstes wählen Sie dann den Ordner aus, in welchem sich die zu sortierenden Bilder befinden, 
+danach machen Sie dasselbe für den Ordner, in den diese herein sortiert werden sollen. 
+In diesem Ordner brauchen Sie keinen weiteren Ordner anlegen, dass übernimmt das Programm für Sie. 
+In dem Ordner wird das Programm für Sie einen Unterordner erstellen, welcher nach Ihrem Urlaubsziel benannt ist. 
+In diesen werden die Fotos nun nach ihrem Aufnahmedatum sortiert.
